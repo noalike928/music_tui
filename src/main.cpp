@@ -9,6 +9,7 @@ public:
 
     TUI(const std::string& _menu) : menu(_menu){}
 
+    // may change in the future
     void print_memu(const bool newline)
     {
         if (newline)

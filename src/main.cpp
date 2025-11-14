@@ -18,4 +18,11 @@ public:
         else
           std::cout << menu;
     }
+
+    void print(const std::string& contant)
+    {
+        std::cout << contant;
+
+        return;
+    }
 };
